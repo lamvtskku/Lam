@@ -7,11 +7,16 @@ body{
 
 margin:0;
 
-font-family:Inter,Arial;
+font-family:
+"Inter",
+Arial,
+sans-serif;
+
+background:#f8fafc;
 
 color:#172033;
 
-background:#fafafa;
+line-height:1.6;
 
 }
 
@@ -21,11 +26,13 @@ header{
 
 background:white;
 
-border-bottom:1px solid #ddd;
+border-bottom:1px solid #e5e7eb;
 
 position:sticky;
 
 top:0;
+
+z-index:10;
 
 }
 
@@ -33,41 +40,15 @@ top:0;
 
 .nav{
 
-max-width:1100px;
+max-width:1200px;
 
 margin:auto;
+
+padding:20px 40px;
 
 display:flex;
 
 justify-content:space-between;
-
-padding:20px;
-
-}
-
-
-
-nav a{
-
-margin-left:25px;
-
-text-decoration:none;
-
-color:#475569;
-
-}
-
-
-
-.hero{
-
-max-width:1100px;
-
-margin:80px auto;
-
-display:flex;
-
-gap:50px;
 
 align-items:center;
 
@@ -75,212 +56,30 @@ align-items:center;
 
 
 
-.profile img{
+.hero{
 
-width:220px;
+max-width:1200px;
 
-height:220px;
+margin:80px auto;
 
-border-radius:50%;
+padding:0 40px;
 
-object-fit:cover;
+display:flex;
 
-}
+gap:60px;
 
-
-
-.intro h1{
-
-font-size:48px;
-
-margin-bottom:10px;
+align-items:center;
 
 }
-
-
-
-.links a{
-
-display:inline-block;
-
-margin-right:15px;
-
-padding:10px 18px;
-
-background:#2563eb;
-
-color:white;
-
-border-radius:20px;
-
-}
-
-
 
 
 
 .section{
 
-max-width:1100px;
+max-width:1200px;
 
-margin:70px auto;
+margin:80px auto;
 
-}
-
-
-
-.section h2{
-
-font-size:32px;
-
-border-left:5px solid #2563eb;
-
-padding-left:15px;
-
-}
-
-
-
-.stats{
-
-display:flex;
-
-justify-content:center;
-
-gap:60px;
-
-padding:40px;
-
-background:white;
-
-}
-
-
-
-.stats div{
-
-text-align:center;
-
-}
-
-
-
-.stats b{
-
-display:block;
-
-font-size:40px;
-
-color:#2563eb;
-
-}
-
-
-
-.cards{
-
-display:grid;
-
-grid-template-columns:repeat(3,1fr);
-
-gap:25px;
-
-}
-
-
-
-.card{
-
-background:white;
-
-padding:30px;
-
-border-radius:15px;
-
-box-shadow:0 5px 20px #ddd;
-
-}
-
-
-
-.project,.paper{
-
-background:white;
-
-padding:25px;
-
-margin:20px 0;
-
-border-radius:12px;
-
-display:flex;
-
-justify-content:space-between;
-
-}
-
-
-
-.timeline{
-
-border-left:3px solid #2563eb;
-
-padding-left:30px;
-
-}
-
-
-
-.timeline div{
-
-margin:35px;
-
-}
-
-
-
-.timeline span{
-
-font-weight:bold;
-
-color:#2563eb;
-
-}
-
-
-
-
-footer{
-
-text-align:center;
-
-padding:30px;
-
-background:#111827;
-
-color:white;
-
-}
-
-
-
-
-@media(max-width:700px){
-
-.hero{
-
-flex-direction:column;
-
-text-align:center;
-
-}
-
-
-.cards{
-
-grid-template-columns:1fr;
-
-}
-
+padding:0 40px;
 
 }
