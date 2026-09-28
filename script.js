@@ -1,3 +1,7 @@
+window.onload=function(){
+
 console.log(
-"Research Landscape Loaded"
+"Academic CV Website Loaded"
 );
+
+};
