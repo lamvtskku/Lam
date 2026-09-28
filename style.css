@@ -83,3 +83,42 @@ margin:80px auto;
 padding:0 40px;
 
 }
+
+.profile img{
+
+width:220px;
+height:220px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+border:6px solid white;
+
+box-shadow:
+0 10px 30px rgba(0,0,0,.15);
+
+}
+
+p{
+
+max-width:850px;
+
+}
+
+
+h1{
+
+font-size:52px;
+
+letter-spacing:-1px;
+
+}
+
+
+h2{
+
+font-weight:700;
+
+}
+
